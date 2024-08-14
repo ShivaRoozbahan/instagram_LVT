@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  color: azure;
+} */
+.continer {
+  max-width: 450px;
+  height: 100vh;
+  background-color: #000000;
+  color: #fff;
+  /* display: flex; */
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 4px solid red;
+}
+
+.information {
+  display: flex;
+}
+
+.detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.followers,
+.following,
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit {
+  display: flex;
+  justify-content: space-around;
+}
+
+.number {
+  font-weight: 900;
+  align-self: center;
+}
+
+.Edit-profile,
+.Share-profile {
+  max-width: 200px;
+  background-color: #6766667a;
+  border-radius: 6px;
+  padding: 7px 55px;
+  font-weight: 800;
+}
+
+.img-add-user {
+  background-color: #6766667a;
+  border-radius: 6px;
+  padding: 7px 15px;
+}
+.add-user {
+  width: 20px;
+}
+
+/* --------------------------- Highlight ---------------------------------- */
+
+.highlight {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.highlight-travel,
+.highlight-me {
+  /* height: 100px;
+  width: 100px;
+  border-radius: 50px; */
+
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 4px solid rgb(97, 96, 96);
+}
+
+.highlight-add {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.highlight span {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-evenly;
+}
